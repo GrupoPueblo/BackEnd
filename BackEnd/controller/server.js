@@ -8,7 +8,7 @@ const port = 3000;
 
 const connection = require('../model/config/db');  // Importar la conexión desde db.js
 
-// Configura la conexión a la base de datos MySQL
+// Configura la conexión a la base de datos
 /*const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',  // Reemplaza con tu usuario de MySQL
