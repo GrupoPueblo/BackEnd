@@ -4,7 +4,7 @@ const session = require('express-session');
 const bcrypt = require('bcryptjs');  // Usamos bcrypt para comparar las contraseñas
 console.log('Estoy en server.js');
 const app = express();
-const port = 3000;
+const port = 25565;
 
 const connection = require('../model/config/db');  // Importar la conexión desde db.js
 
